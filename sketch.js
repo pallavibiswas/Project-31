@@ -8,6 +8,38 @@ var box1, pig1,pig3;
 var backgroundImg,platform;
 var bird, slingshot;
 
+var num =0;
+console.log(num);
+
+var string="Pallavi";
+console.log(string);
+
+var bool= true;
+console.log(bool);
+
+var x;
+console.log(x);
+
+x=null;
+console.log(x);
+
+var arr=[];
+console.log(arr);
+
+var arr1=[12,"Pallavi",true]; //[0,1,2]
+console.log(arr1[1]);
+
+arr.push(42);
+arr.push("Nandhini");
+arr.push(false);
+
+console.log(arr);
+
+arr.pop();
+
+var arr3=[ [1,"pallavi"], [2,"Nandhini"], [3,"trumph"], [4,"Modi"] ];
+
+console.log( arr3[1][1]);
 
 function preload() {
     backgroundImg = loadImage("sprites/bg.png");
